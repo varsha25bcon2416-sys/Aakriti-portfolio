@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Aakriti Sharma - B.Tech Computer Science and Engineering student at JECRC University, Jaipur. Explore Python projects, web applications, and an interactive AI Chatbot.">
+    <meta name="author" content="Aakriti Sharma">
+    <title>Aakriti Sharma | B.Tech CSE Portfolio & AI Chatbot</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to Content for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation Header -->
+    <header class="navbar-wrapper" id="header">
+        <nav class="navbar container" aria-label="Main Navigation">
+            <a href="#home" class="nav-brand" aria-label="Aakriti Sharma Home">
+                <span class="brand-code">&lt;</span>Aakriti<span class="brand-accent">.dev</span><span class="brand-code">/&gt;</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#quiz-section" class="nav-link">Live Quiz</a></li>
+                    <li class="nav-item"><a href="#chatbot" class="nav-link">AI Chatbot</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Navbar Right Controls -->
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark/light theme" title="Toggle theme">
+                    <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+                    <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+                </button>
+
+                <!-- Mobile Hamburger Toggle -->
+                <button id="hamburgerBtn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- 1. HOME / HERO SECTION -->
+        <section id="home" class="hero-section section-padding">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        <span>Welcome to my assignment portfolio</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Aakriti Sharma</span>
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        B.Tech Computer Science &amp; Engineering Student
+                    </h2>
+                    
+                    <div class="hero-location">
+                        <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <span>JECRC University • Jaipur, Rajasthan</span>
+                    </div>
+
+                    <p class="hero-description">
+                        Passionate about Python programming, clean code refactoring, problem-solving, and modern web technologies. Exploring AI-assisted development tools like Cursor AI to build intelligent, accessible, and high-quality software solutions.
+                    </p>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore 5 Projects</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <a href="#chatbot" class="btn btn-secondary">
+                            <span>Ask AI Assistant</span>
+                            <span class="btn-chip">Interactive</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+
+                    <!-- Highlight Badges -->
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Assignment Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">B.Tech</span>
+                            <span class="stat-label">CSE @ JECRC</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number">AI Ready</span>
+                            <span class="stat-label">API-Based Chatbot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-avatar-card">
+                        <div class="avatar-circle">
+                            <span class="avatar-initials">AS</span>
+                        </div>
+                        <div class="avatar-details">
+                            <h3 class="avatar-name">Aakriti Sharma</h3>
+                            <p class="avatar-role">B.Tech CSE Undergraduate</p>
+                            <span class="avatar-university">JECRC University, Jaipur</span>
+                        </div>
+                        <!-- Tech stack floating tags -->
+                        <div class="floating-tech-tags">
+                            <span class="tag tag-python">🐍 Python</span>
+                            <span class="tag tag-cursor">🤖 Cursor AI</span>
+                            <span class="tag tag-js">⚡ JavaScript</span>
+                            <span class="tag tag-html">🌐 HTML &amp; CSS</span>
+                            <span class="tag tag-pep">✨ Clean Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="about-section section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Academic journey, technical passions, and foundational values</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio-card card">
+                        <h3 class="about-card-title">Engineering Curiosity &amp; Software Craftsmanship</h3>
+                        <p>
+                            Hello! I am <strong>Aakriti Sharma</strong>, a dedicated Computer Science and Engineering undergraduate at <strong>JECRC University</strong> in <strong>Jaipur, Rajasthan</strong>. My focus centers on building a solid foundation in computational thinking, software engineering best practices, and practical application development.
+                        </p>
+                        <p>
+                            Through my coursework and project assignments, I enjoy writing Python programs to solve algorithmic challenges, transforming messy legacy code into clean, PEP 8-compliant structures, and harnessing modern AI-powered developer tools such as <strong>Cursor AI</strong> for precise bug diagnostics.
+                        </p>
+                        <p>
+                            Beyond basic programming, I am passionate about front-end design, responsive user interfaces, and integrating modern Large Language Model (LLM) APIs to build interactive web experiences that make technology useful and engaging.
+                        </p>
+
+                        <div class="about-highlights-list">
+                            <div class="highlight-item">
+                                <span class="highlight-icon">🎯</span>
+                                <div>
+                                    <strong>Academic Focus</strong>
+                                    <p>Algorithms, Data Structures, Object-Oriented Programming, and Web Standards.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon">🔍</span>
+                                <div>
+                                    <strong>Code Quality Philosophy</strong>
+                                    <p>Readable, self-documenting code with meaningful naming, modular functions, and robust testing.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-icon">🚀</span>
+                                <div>
+                                    <strong>AI &amp; Innovation</strong>
+                                    <p>Leveraging AI tools securely and responsibly through authenticated backend endpoints.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-info-column">
+                        <!-- Student Profile Card -->
+                        <div class="card info-card">
+                            <h3 class="info-card-title">Student Profile</h3>
+                            <ul class="profile-meta-list">
+                                <li>
+                                    <span class="meta-label">Full Name:</span>
+                                    <span class="meta-value">Aakriti Sharma</span>
+                                </li>
+                                <li>
+                                    <span class="meta-label">Degree Course:</span>
+                                    <span class="meta-value">B.Tech in Computer Science and Engineering</span>
+                                </li>
+                                <li>
+                                    <span class="meta-label">College / University:</span>
+                                    <span class="meta-value">JECRC University</span>
+                                </li>
+                                <li>
+                                    <span class="meta-label">Campus City:</span>
+                                    <span class="meta-value">Jaipur, Rajasthan, India</span>
+                                </li>
+                                <li>
+                                    <span class="meta-label">Core Competencies:</span>
+                                    <span class="meta-value">Python, Web Tech, Refactoring, Cursor AI</span>
+                                </li>
+                                <li>
+                                    <span class="meta-label">Status:</span>
+                                    <span class="meta-value status-badge">Open for Collaborations &amp; Internships</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- University Highlight Card -->
+                        <div class="card university-card">
+                            <div class="uni-header">
+                                <div class="uni-icon">🏛️</div>
+                                <div>
+                                    <h4 class="uni-title">JECRC University</h4>
+                                    <p class="uni-location">Jaipur, Rajasthan</p>
+                                </div>
+                            </div>
+                            <p class="uni-text">
+                                Known for fostering rigorous engineering foundations, hands-on programming labs, and a vibrant community of passionate learners and developers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SKILLS SECTION -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Capabilities</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Categorized breakdown of programming languages, tools, and methodologies</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card card">
+                        <div class="category-header">
+                            <div class="category-icon icon-code">💻</div>
+                            <h3 class="category-title">Programming Languages</h3>
+                        </div>
+                        <ul class="skill-pill-list">
+                            <li class="skill-pill">
+                                <span class="pill-title">Python</span>
+                                <span class="pill-level">Core, Loops, Functions, OOP</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">JavaScript</span>
+                                <span class="pill-level">ES6+, DOM Manipulation, Fetch API</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">C / C++</span>
+                                <span class="pill-level">Academic Foundations &amp; Pointers</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-category-card card">
+                        <div class="category-header">
+                            <div class="category-icon icon-web">🌐</div>
+                            <h3 class="category-title">Web Technologies</h3>
+                        </div>
+                        <ul class="skill-pill-list">
+                            <li class="skill-pill">
+                                <span class="pill-title">HTML5</span>
+                                <span class="pill-level">Semantic Structure, Accessibility (a11y)</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">CSS3</span>
+                                <span class="pill-level">Flexbox, CSS Grid, Responsive Design</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">Modern UI Patterns</span>
+                                <span class="pill-level">Light/Dark Themes, Modals, Cards</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">Local Storage</span>
+                                <span class="pill-level">Client-side persistence</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- AI & Modern Developer Tools -->
+                    <div class="skill-category-card card">
+                        <div class="category-header">
+                            <div class="category-icon icon-ai">🤖</div>
+                            <h3 class="category-title">AI &amp; Developer Tools</h3>
+                        </div>
+                        <ul class="skill-pill-list">
+                            <li class="skill-pill">
+                                <span class="pill-title">Cursor AI</span>
+                                <span class="pill-level">AI-assisted debugging, code explainers</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">Git &amp; GitHub</span>
+                                <span class="pill-level">Version control, commits, branching</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">VS Code</span>
+                                <span class="pill-level">Extensions, linting, integrated terminal</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">REST APIs</span>
+                                <span class="pill-level">Secure endpoint integration, JSON parsing</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Software Engineering Practices -->
+                    <div class="skill-category-card card">
+                        <div class="category-header">
+                            <div class="category-icon icon-craft">✨</div>
+                            <h3 class="category-title">Software Engineering</h3>
+                        </div>
+                        <ul class="skill-pill-list">
+                            <li class="skill-pill">
+                                <span class="pill-title">Code Refactoring</span>
+                                <span class="pill-level">Eliminating code smells, modularity</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">PEP 8 Standards</span>
+                                <span class="pill-level">Python style conventions &amp; readability</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">Error Handling</span>
+                                <span class="pill-level">Try/except, validation, UX error states</span>
+                            </li>
+                            <li class="skill-pill">
+                                <span class="pill-title">API Security</span>
+                                <span class="pill-level">Server-side proxying &amp; secret isolation</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROJECTS SECTION -->
+        <section id="projects" class="projects-section section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Required Coursework</span>
+                    <h2 class="section-title">Assignment Projects</h2>
+                    <p class="section-subtitle">All five specified assignment projects demonstrating programming, refactoring, AI debugging, and interactive apps</p>
+                </div>
+
+                <!-- Projects Controls: Search & Category Filters -->
+                <div class="projects-toolbar">
+                    <div class="search-box">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="text" id="projectSearch" class="search-input" placeholder="Search projects by title, tech stack, or description..." aria-label="Search projects">
+                        <button id="clearSearchBtn" class="clear-search-btn" aria-label="Clear search" title="Clear search" style="display: none;">&times;</button>
+                    </div>
+
+                    <div class="category-filters" role="group" aria-label="Project category filters">
+                        <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+                        <button class="filter-btn" data-filter="python">Python</button>
+                        <button class="filter-btn" data-filter="web">Web &amp; JS</button>
+                        <button class="filter-btn" data-filter="ai">AI Tools</button>
+                    </div>
+                </div>
+
+                <!-- Projects Grid (5 Required Projects) -->
+                <div class="projects-grid" id="projectsGrid">
+
+                    <!-- PROJECT 1: Python Programs Collection -->
+                    <article class="project-card card" data-category="python" data-project-id="1">
+                        <div class="project-card-header">
+                            <div class="project-badge-group">
+                                <span class="project-num">Project 01</span>
+                                <span class="project-type-badge python-badge">Python Core</span>
+                            </div>
+                            <span class="project-status">Local Repository</span>
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-title">Python Programs Collection</h3>
+                            <p class="project-description">
+                                A curated collection of Python programs demonstrating fundamental programming concepts, control flow, loops (for/while), custom functions, data structures, and foundational problem-solving algorithms.
+                            </p>
+
+                            <div class="project-features">
+                                <strong>Key Implementations:</strong>
+                                <ul>
+                                    <li>Loop patterns, prime checks, and Fibonacci sequence generation.</li>
+                                    <li>Data structure manipulations with lists, dictionaries, and tuples.</li>
+                                    <li>Modular function design with parameter handling and docstrings.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Python 3</span>
+                                <span class="tech-tag">Problem Solving</span>
+                                <span class="tech-tag">Loops &amp; Functions</span>
+                                <span class="tech-tag">Algorithms</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card-footer">
+                            <button class="btn btn-sm btn-outline open-modal-btn" data-target="modal-project-1">
+                                <span>View Technical Details</span>
+                                <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </button>
+                            <span class="project-source-note">Assignment Submission</span>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 2: Messy Python Code Improvement -->
+                    <article class="project-card card" data-category="python" data-project-id="2">
+                        <div class="project-card-header">
+                            <div class="project-badge-group">
+                                <span class="project-num">Project 02</span>
+                                <span class="project-type-badge refactor-badge">Refactoring</span>
+                            </div>
+                            <span class="project-status">Local Repository</span>
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-title">Messy Python Code Improvement</h3>
+                            <p class="project-description">
+                                Demonstrates how poorly organized, tightly coupled, and cryptic Python code can be systematically refactored into clean, readable, modular, and maintainable code strictly adhering to PEP 8 standards.
+                            </p>
+
+                            <div class="project-features">
+                                <strong>Key Implementations:</strong>
+                                <ul>
+                                    <li>Replacing ambiguous variable names (x, temp, data2) with expressive identifiers.</li>
+                                    <li>Decomposing 100+ line monolithic scripts into pure, single-responsibility functions.</li>
+                                    <li>Adding type annotations, docstrings, and comprehensive error handling.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">PEP 8 Guidelines</span>
+                                <span class="tech-tag">Clean Code</span>
+                                <span class="tech-tag">Code Smells</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card-footer">
+                            <button class="btn btn-sm btn-outline open-modal-btn" data-target="modal-project-2">
+                                <span>View Technical Details</span>
+                                <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </button>
+                            <span class="project-source-note">Assignment Submission</span>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 3: Bug Fixing Using Cursor AI -->
+                    <article class="project-card card" data-category="ai" data-project-id="3">
+                        <div class="project-card-header">
+                            <div class="project-badge-group">
+                                <span class="project-num">Project 03</span>
+                                <span class="project-type-badge ai-badge">AI Tooling</span>
+                            </div>
+                            <span class="project-status">Local Repository</span>
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-title">Bug Fixing Using Cursor AI</h3>
+                            <p class="project-description">
+                                Case study demonstrating how Cursor AI assists developers in diagnosing complex runtime errors, off-by-one loop defects, type mismatches, and logic bugs, providing root-cause explanations and targeted fixes.
+                            </p>
+
+                            <div class="project-features">
+                                <strong>Key Implementations:</strong>
+                                <ul>
+                                    <li>Iterative AI prompting workflows for debugging stack traces.</li>
+                                    <li>Side-by-side diff verification before accepting AI code suggestions.</li>
+                                    <li>Documenting root causes and developing regression test cases.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">Cursor AI</span>
+                                <span class="tech-tag">Prompt Engineering</span>
+                                <span class="tech-tag">Debugging</span>
+                                <span class="tech-tag">Python Verification</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card-footer">
+                            <button class="btn btn-sm btn-outline open-modal-btn" data-target="modal-project-3">
+                                <span>View Technical Details</span>
+                                <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </button>
+                            <span class="project-source-note">Assignment Submission</span>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 4: Interactive Quiz Application -->
+                    <article class="project-card card" data-category="web" data-project-id="4">
+                        <div class="project-card-header">
+                            <div class="project-badge-group">
+                                <span class="project-num">Project 04</span>
+                                <span class="project-type-badge web-badge">Web Application</span>
+                            </div>
+                            <span class="project-status status-live">Live On This Page</span>
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-title">Interactive Quiz Application</h3>
+                            <p class="project-description">
+                                A dynamic browser-based quiz application featuring multiple-choice questions on Python, computer science fundamentals, and debugging, with immediate answer checking, score tabulation, and feedback explanations.
+                            </p>
+
+                            <div class="project-features">
+                                <strong>Key Implementations:</strong>
+                                <ul>
+                                    <li>Interactive live quiz module embedded directly in this portfolio!</li>
+                                    <li>Real-time score tracking, progress bar, and instant rationales.</li>
+                                    <li>Option randomization, retake capabilities, and final performance badges.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">JavaScript (ES6+)</span>
+                                <span class="tech-tag">HTML5 DOM</span>
+                                <span class="tech-tag">CSS3 Animation</span>
+                                <span class="tech-tag">State Management</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card-footer">
+                            <a href="#quiz-section" class="btn btn-sm btn-primary">
+                                <span>Launch Live Quiz</span>
+                                <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            </a>
+                            <button class="btn btn-sm btn-ghost open-modal-btn" data-target="modal-project-4">Details</button>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT 5: Book Reading List Application -->
+                    <article class="project-card card" data-category="web" data-project-id="5">
+                        <div class="project-card-header">
+                            <div class="project-badge-group">
+                                <span class="project-num">Project 05</span>
+                                <span class="project-type-badge web-badge">Web Application</span>
+                            </div>
+                            <span class="project-status">Local Repository</span>
+                        </div>
+
+                        <div class="project-card-body">
+                            <h3 class="project-title">Book Reading List Application</h3>
+                            <p class="project-description">
+                                A personal productivity web application for adding books, managing reading statuses (To Read, Currently Reading, Completed), tracking authors, and persisting data locally in the user's browser.
+                            </p>
+
+                            <div class="project-features">
+                                <strong>Key Implementations:</strong>
+                                <ul>
+                                    <li>Complete CRUD operations (Create, Read, Update status, Delete book).</li>
+                                    <li>Persistent data storage using browser LocalStorage API.</li>
+                                    <li>Category filtering by reading status and responsive card interface.</li>
+                                </ul>
+                            </div>
+
+                            <div class="project-tech-tags">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">LocalStorage</span>
+                                <span class="tech-tag">Responsive UI</span>
+                                <span class="tech-tag">CRUD Operations</span>
+                            </div>
+                        </div>
+
+                        <div class="project-card-footer">
+                            <button class="btn btn-sm btn-outline open-modal-btn" data-target="modal-project-5">
+                                <span>View Technical Details</span>
+                                <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </button>
+                            <span class="project-source-note">Assignment Submission</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- No Results Notification for Search -->
+                <div id="noProjectsMessage" class="no-results-card card text-center" style="display: none;">
+                    <p class="no-results-icon">🔎</p>
+                    <h3>No projects match your search query</h3>
+                    <p>Try searching for terms like "Python", "Refactoring", "Cursor", "Quiz", or "Storage".</p>
+                    <button id="resetSearchBtn" class="btn btn-sm btn-primary">Reset Filters</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIVE INTERACTIVE QUIZ SECTION (Project 4 Built-In Interactive Demo) -->
+        <section id="quiz-section" class="quiz-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Live Feature Demo</span>
+                    <h2 class="section-title">Interactive Quiz Application</h2>
+                    <p class="section-subtitle">Test your knowledge of Python, code refactoring, and AI concepts directly on this site</p>
+                </div>
+
+                <div class="quiz-container card">
+                    <!-- Quiz Progress Header -->
+                    <div class="quiz-top-bar">
+                        <div class="quiz-meta-info">
+                            <span class="quiz-badge" id="quizCategoryBadge">Python &amp; CS Fundamentals</span>
+                            <span class="quiz-counter" id="quizCounter">Question 1 of 5</span>
+                        </div>
+                        <div class="quiz-score-display">
+                            <span>Score: <strong id="currentScore">0</strong></span>
+                        </div>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="quiz-progress-track">
+                        <div class="quiz-progress-fill" id="quizProgressFill" style="width: 20%;"></div>
+                    </div>
+
+                    <!-- Question Container -->
+                    <div class="quiz-body" id="quizBody">
+                        <h3 class="quiz-question" id="quizQuestionText">Loading quiz question...</h3>
+                        <div class="quiz-options-grid" id="quizOptionsContainer" role="radiogroup" aria-label="Quiz Answer Options">
+                            <!-- Populated dynamically via script.js -->
+                        </div>
+
+                        <!-- Feedback Message Box -->
+                        <div class="quiz-feedback-box" id="quizFeedbackBox" style="display: none;">
+                            <div class="feedback-icon" id="feedbackIcon">💡</div>
+                            <div class="feedback-content">
+                                <h4 id="feedbackTitle">Feedback</h4>
+                                <p id="feedbackText">Explanation will appear here.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quiz Action Controls -->
+                    <div class="quiz-footer">
+                        <button id="quizActionBtn" class="btn btn-primary" disabled>
+                            <span>Check Answer</span>
+                        </button>
+                        <button id="restartQuizBtn" class="btn btn-outline" style="display: none;">
+                            <span>Restart Quiz</span>
+                        </button>
+                    </div>
+
+                    <!-- Final Results View (Hidden Initially) -->
+                    <div class="quiz-results" id="quizResults" style="display: none;">
+                        <div class="results-badge" id="resultsIcon">🏆</div>
+                        <h3 class="results-title" id="resultsTitle">Quiz Completed!</h3>
+                        <p class="results-score-text">You scored <strong id="finalScoreVal">0</strong> out of <strong id="totalQuestionsVal">5</strong></p>
+                        <p class="results-message" id="resultsMessage">Well done exploring Computer Science concepts!</p>
+                        <button id="tryAgainBtn" class="btn btn-primary">Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. AI CHATBOT SECTION -->
+        <section id="chatbot" class="chatbot-section section-padding section-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Assignment Requirement</span>
+                    <h2 class="section-title">AI Portfolio Chatbot</h2>
+                    <p class="section-subtitle">An intelligent assistant ready for secure server-side API integration</p>
+                </div>
+
+                <div class="chatbot-layout">
+                    <!-- Left: Technical Architecture & Configuration Info -->
+                    <div class="chatbot-info-column">
+                        <div class="card chat-architecture-card">
+                            <h3 class="card-heading">
+                                <span class="heading-icon">🔒</span>
+                                Secure API Integration
+                            </h3>
+                            <p>
+                                This chatbot is designed to communicate with a <strong>real AI API</strong> (such as Google Gemini or OpenAI) via a secure backend proxy endpoint.
+                            </p>
+
+                            <div class="security-rule-box">
+                                <div class="rule-icon">⚠️</div>
+                                <div class="rule-text">
+                                    <strong>Security Notice:</strong>
+                                    Never place private AI API keys inside client-side JavaScript or HTML. The browser communicates with a local backend server at <code>/api/chat</code>, which keeps your secret key protected in a server-side <code>.env</code> file.
+                                </div>
+                            </div>
+
+                            <h4 class="subheading">Assistant Capabilities:</h4>
+                            <ul class="chat-features-list">
+                                <li>✨ Answers inquiries about Aakriti's academic details at JECRC University.</li>
+                                <li>✨ Explains all 5 required projects and their technical concepts.</li>
+                                <li>✨ Connects to a real AI backend proxy when running, or falls back to an intelligent local portfolio guide.</li>
+                                <li>✨ Complete error-handling, loading states, and prompt suggestions.</li>
+                            </ul>
+
+                            <div class="endpoint-status-card">
+                                <div class="endpoint-header">
+                                    <span class="status-indicator-dot" id="backendStatusDot"></span>
+                                    <span class="endpoint-label">Configured Endpoint:</span>
+                                    <span class="endpoint-url"><code>/api/chat</code></span>
+                                </div>
+                                <p class="endpoint-subtext" id="endpointStatusText">
+                                    Local fallback active. Start the backend proxy server to connect live LLMs.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Quick Suggested Prompt Chips -->
+                        <div class="card quick-prompts-card">
+                            <h4 class="prompts-heading">💡 Quick Question Prompts:</h4>
+                            <div class="prompt-chips-wrapper">
+                                <button class="prompt-chip" data-prompt="Who is Aakriti Sharma and where does she study?">
+                                    Who is Aakriti Sharma?
+                                </button>
+                                <button class="prompt-chip" data-prompt="Tell me about all five projects in this portfolio.">
+                                    Explain the 5 projects
+                                </button>
+                                <button class="prompt-chip" data-prompt="How did Aakriti use Cursor AI for bug fixing?">
+                                    How did she use Cursor AI?
+                                </button>
+                                <button class="prompt-chip" data-prompt="What programming languages and skills does Aakriti know?">
+                                    List technical skills
+                                </button>
+                                <button class="prompt-chip" data-prompt="How do I set up the secure backend server for this chatbot?">
+                                    How to setup AI backend?
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: The Chatbot Interface -->
+                    <div class="chatbot-ui-wrapper">
+                        <div class="chat-window card">
+                            <!-- Chat Header -->
+                            <div class="chat-header">
+                                <div class="chat-bot-identity">
+                                    <div class="bot-avatar">🤖</div>
+                                    <div class="bot-info">
+                                        <h3 class="bot-name">Aakriti's AI Assistant</h3>
+                                        <div class="bot-status">
+                                            <span class="status-dot-pulse"></span>
+                                            <span class="status-caption" id="chatStatusCaption">Portfolio Assistant (Ready)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-header-actions">
+                                    <button id="clearChatBtn" class="chat-tool-btn" title="Clear conversation history" aria-label="Clear conversation history">
+                                        <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+                                        <span>Clear</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Chat Messages Feed -->
+                            <div class="chat-messages" id="chatMessages" role="log" aria-live="polite" aria-label="Chat Message History">
+                                <!-- Welcome Message -->
+                                <div class="message message-bot">
+                                    <div class="msg-avatar">🤖</div>
+                                    <div class="msg-content">
+                                        <div class="msg-bubble">
+                                            <p>Hello! I am Aakriti's portfolio AI assistant.</p>
+                                            <p>You can ask me about Aakriti's background at <strong>JECRC University</strong>, her <strong>5 assignment projects</strong>, technical skills, or how to connect a live AI API backend.</p>
+                                            <p class="msg-subtext">Click any suggestion chip or type your message below!</p>
+                                        </div>
+                                        <span class="msg-time">Just now</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Chat Typing / Loading Indicator -->
+                            <div class="typing-indicator" id="typingIndicator" style="display: none;" aria-hidden="true">
+                                <div class="typing-bubble">
+                                    <span class="typing-dot"></span>
+                                    <span class="typing-dot"></span>
+                                    <span class="typing-dot"></span>
+                                </div>
+                                <span class="typing-text">AI Assistant is thinking...</span>
+                            </div>
+
+                            <!-- Chat Input Form -->
+                            <form id="chatForm" class="chat-input-bar">
+                                <label for="chatInput" class="visually-hidden">Type your question for the AI assistant</label>
+                                <input 
+                                    type="text" 
+                                    id="chatInput" 
+                                    class="chat-input" 
+                                    placeholder="Type your question here... (e.g., 'What are Aakriti\'s skills?')" 
+                                    autocomplete="off"
+                                    required
+                                >
+                                <button type="submit" id="sendMessageBtn" class="chat-send-btn" aria-label="Send message">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                                    <span>Send</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CONTACT SECTION -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-badge">Reach Out</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <p class="section-subtitle">Have inquiries about my assignments, projects, or collaboration? Send me a message!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left: Contact Details Card -->
+                    <div class="contact-info-card card">
+                        <h3 class="contact-info-title">Contact Information</h3>
+                        <p class="contact-info-intro">
+                            Feel free to connect regarding software engineering opportunities, coding questions, or academic discussions.
+                        </p>
+
+                        <div class="contact-details-list">
+                            <div class="contact-item">
+                                <div class="contact-item-icon">👤</div>
+                                <div>
+                                    <span class="item-title">Name</span>
+                                    <p class="item-value">Aakriti Sharma</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">🎓</div>
+                                <div>
+                                    <span class="item-title">Department</span>
+                                    <p class="item-value">B.Tech Computer Science &amp; Engineering</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">🏛️</div>
+                                <div>
+                                    <span class="item-title">University</span>
+                                    <p class="item-value">JECRC University, Jaipur</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon">📍</div>
+                                <div>
+                                    <span class="item-title">Location</span>
+                                    <p class="item-value">Jaipur, Rajasthan, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="academic-note-box">
+                            <span class="note-badge">Assignment Notice</span>
+                            <p>This portfolio is part of an academic submission. All inquiries submitted through this form will be validated and logged client-side.</p>
+                        </div>
+                    </div>
+
+                    <!-- Right: Validated Contact Form -->
+                    <div class="contact-form-card card">
+                        <h3 class="form-title">Send a Message</h3>
+                        <form id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="senderName" class="form-label">Your Full Name <span class="required-star">*</span></label>
+                                <input type="text" id="senderName" name="name" class="form-input" placeholder="e.g. Rahul Sharma" required minlength="2">
+                                <span class="field-error" id="nameError">Please enter your full name (at least 2 characters).</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senderEmail" class="form-label">Your Email Address <span class="required-star">*</span></label>
+                                <input type="email" id="senderEmail" name="email" class="form-input" placeholder="e.g. rahul@example.com" required>
+                                <span class="field-error" id="emailError">Please enter a valid email address.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="messageSubject" class="form-label">Subject <span class="required-star">*</span></label>
+                                <input type="text" id="messageSubject" name="subject" class="form-input" placeholder="e.g. Question regarding Python Refactoring Project" required minlength="3">
+                                <span class="field-error" id="subjectError">Please provide a subject line (minimum 3 characters).</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="messageBody" class="form-label">Your Message <span class="required-star">*</span></label>
+                                <textarea id="messageBody" name="message" class="form-textarea" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+                                <span class="field-error" id="messageError">Please write a message with at least 10 characters.</span>
+                            </div>
+
+                            <!-- Form Feedback Message Banner -->
+                            <div id="formFeedback" class="form-feedback-banner" style="display: none;" role="alert"></div>
+
+                            <button type="submit" id="submitFormBtn" class="btn btn-primary btn-block">
+                                <span>Send Message</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-wrapper">
+        <div class="container footer-container">
+            <div class="footer-brand-col">
+                <a href="#home" class="footer-logo">
+                    <span class="brand-code">&lt;</span>Aakriti<span class="brand-accent">.dev</span><span class="brand-code">/&gt;</span>
+                </a>
+                <p class="footer-bio">
+                    Personal Portfolio &amp; AI Chatbot Integration Assignment. Developed by Aakriti Sharma, B.Tech CSE student at JECRC University, Jaipur.
+                </p>
+                <div class="footer-tags">
+                    <span class="tag-sm">B.Tech CSE</span>
+                    <span class="tag-sm">JECRC University</span>
+                    <span class="tag-sm">Jaipur</span>
+                </div>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4 class="footer-col-title">Navigation</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#quiz-section">Interactive Quiz</a></li>
+                    <li><a href="#chatbot">AI Chatbot</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-projects-col">
+                <h4 class="footer-col-title">Assignment Projects</h4>
+                <ul class="footer-links">
+                    <li><a href="#projects">1. Python Programs Collection</a></li>
+                    <li><a href="#projects">2. Messy Code Improvement</a></li>
+                    <li><a href="#projects">3. Bug Fixing via Cursor AI</a></li>
+                    <li><a href="#quiz-section">4. Interactive Quiz App</a></li>
+                    <li><a href="#projects">5. Book Reading List App</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p class="copyright-text">
+                    &copy; 2026 <strong>Aakriti Sharma</strong>. All rights reserved. B.Tech Computer Science and Engineering, JECRC University.
+                </p>
+                <a href="#home" class="back-to-top" aria-label="Back to top">
+                    <span>Back to Top</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Chat Launch Button -->
+    <a href="#chatbot" class="floating-chat-trigger" aria-label="Open AI Chatbot" title="Open AI Chatbot">
+        <span class="floating-icon">💬</span>
+        <span class="floating-label">AI Chat</span>
+    </a>
+
+    <!-- PROJECT DETAILS MODAL DIALOG -->
+    <div id="projectModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog card">
+            <div class="modal-header">
+                <div>
+                    <span class="modal-badge" id="modalBadge">Project Category</span>
+                    <h3 class="modal-title" id="modalTitle">Project Title</h3>
+                </div>
+                <button id="closeModalBtn" class="modal-close-btn" aria-label="Close dialog">&times;</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Injected dynamically -->
+            </div>
+            <div class="modal-footer">
+                <button id="modalActionBtn" class="btn btn-outline">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle -->
+    <script src="script.js"></script>
+</body>
+</html>
